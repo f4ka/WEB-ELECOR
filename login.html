@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8" />
+	 	<title>Login Usuarios</title>
+	 	<link rel="stylesheet" href="css/styleLogin.css" type="text/css" media="all" />
+
+	</head>
+	 
+	<body onload='document.forms["formulario"]["username"].focus()'>
+	<hr/>
+	 
+	<form action="administracion.php" method="post" class="login" name="formulario">
+	<div><label>Username</label><input name="username" type="text" id="username" ></div>
+	<div><label>Password</label><input name="password" type="password" id="password"></div>
+	<div><input name="login" type="submit" value="login"></div>
+	</form>
+	<hr />
+
+	<footer>
+	</footer>
+	 
+	</body>
+</html>
