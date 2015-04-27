@@ -1,11 +1,11 @@
-<?php
+﻿<?php
 
  //include("connectionDB.php"); no funciona aqui ya que no levanta la img
 
 
   	$server="localhost";
 	$user="root";
-	$password="facundo";
+	$password="";
 	$bd="bd_elecor";  
 
   $conexion=mysql_connect($server,$user,$password) or
