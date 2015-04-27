@@ -3,10 +3,9 @@ addEvent(window,'load',inicializarEventos,false);
 function inicializarEventos()
 {
   var ob;
-  for(f=1;f<=16;f++)
+  for(f=1;f<=13;f++)
   {
     ob=document.getElementById('enlace'+f);
-    
     addEvent(ob,'click',presionEnlace,false);
   }
 }
@@ -51,7 +50,7 @@ function procesarEventos()
   } 
   else 
   {
-    detalles.innerHTML = '';
+    detalles.innerHTML = 'Cargando...';
   }
 }
 
@@ -84,35 +83,4 @@ function crearXMLHttpRequest()
     if (window.XMLHttpRequest) 
       xmlHttp = new XMLHttpRequest();
   return xmlHttp;
-}
-
-
-$('enviar').click(function() {
-    $.ajax({
-        type: “POST”,
-        url: “https://mandrillapp.com/api/1.0/messages/send.json”,
-        data: {
-        ‘key’: ‘7AK3eqF-ROo4Lr9pLw1Gyg’,
-        ‘message’: {
-        ‘from_email’: ‘facundo.gomezalgazan@gmail.com’,
-        ‘to’: [
-        {
-        ‘email’: ‘nicolasbloj@gmail.com’,
-        ‘name’: ‘Nico’,
-        ‘type’: ‘to’
-    },
-           {
-        ‘email’: ‘fgomezalgazan@gmail.com’,
-        ‘name’: ‘Facu’,
-        ‘type’: ‘to’
-    }
-           ],
-           ‘autotext’: ‘true’,
-           ‘subject’: ‘Test Envio mail’,
-           ‘html’: ‘Texto del mail’
-           }
-           }
-           }).done(function(response) {
-        console.log(response); // if you're into that sorta thing
-    });
-});
+}ee

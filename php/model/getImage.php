@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
  //include("connectionDB.php"); no funciona aqui ya que no levanta la img
 
