@@ -5,7 +5,7 @@
 
   	$server="localhost";
 	$user="root";
-	$password="facundo";
+	$password="";
 	$bd="bd_elecor";  
 
   $conexion=mysql_connect($server,$user,$password) or
