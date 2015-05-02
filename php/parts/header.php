@@ -33,14 +33,13 @@
 						<li class="dropdown1"><a href="nuestrosClientes.php">Nuestros Clientes</a>
 						</li>  
 						<li class="dropdown1"><a href="contact.php">Contacto</a>
-						</li>  					           
-						<li><a href="">Acerca de la empresa</a></li>            
+						</li>
+                        <li class="dropdown1"><a href="acercade.php">Acerca de la empresa</a>
+						</li>
+                        <li class="dropdown1"><a href="archivospdf.php">Archivos</a>
+						</li>
+                        
 					</ul>
-				</div>
-				<div class="search">
-					<form>
-						<input type="text" value="Buscar..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar...';}" required="">
-					</form>
 				</div>
 				<div class="clearfix"> </div>
 				<!-- script-for-menu -->

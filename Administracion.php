@@ -57,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
  $host_db = "localhost";
  $user_db = "root";
- $pass_db = "facundo";
+ $pass_db = "";
  $db_name = "bd_elecor";
  $tbl_name = "usuarios";
 
@@ -145,6 +145,15 @@ include("php/parts/header.php");
 		<div class="container">
 			<div class="col-md-9 fashions">
 				<div class="title">
+					<div><h3>Administracion - Alta de Archivos de informacion</h3></div>
+                        <form action="php/model/upload.php" method="post" enctype="multipart/form-data">
+                                <input type="file" name="filepdf" /><br />
+                                Nombre<br>
+					            <input type="text" name="nombre"><br><br>
+	                            <input type="submit" value="Subir pdf" name="upload_pdf" />
+                        </form>
+                </div>
+                <div class="title">
 					<div><h3>Administracion - Alta de imagenes</h3><h5><a href="php/model/logout.php">(logout)</a></h5></div>
 
 					<form action="php/model/loadImage.php" method="post" enctype="multipart/form-data">
