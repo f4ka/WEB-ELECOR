@@ -67,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<?php
 
-				include("php/parts/rubrosmarcas.php");
+    include("php/parts/rubrosmarcas.php");
 	
 	?>
 	<!-- //rubros -->

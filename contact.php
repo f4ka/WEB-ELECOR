@@ -57,8 +57,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- container -->
 		<div class="container">
 			<div class="col-md-3 products-bottom-left">
-				<h3>Elecor <span>S.R.L</span></h3>
-				<p> FLUKE - AMPROBE </p>
+				<h3>Elecor</h3>
+				<p>  </p>
 				<div class="social-icons">
 					<ul>
 						<li><a href="#" class="facebook"></a></li>
@@ -88,16 +88,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //products-bottom -->
 	<!-- sign-up -->
-	<div class="sign-up">
-		<!-- container -->
-		<div class="container">
-			<div class="sign-up-left">
-				<p><span>Sign up</span> for exclusive sales and product news</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- //container -->
-	</div>
 	<!-- //sign-up -->
 	<?php include("php/parts/footer.php"); ?>
 </body>

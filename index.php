@@ -258,9 +258,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- container -->
 		<div class="container">
 			<div class="col-md-3 products-bottom-left">
-				<h3>Elecor <span>S.R.L</span></h3>
-				<p> FLUKE - AMPROBE
-					
+				<h3>Elecor <span></span></h3>
+				<p> FLUKE  AMPROBE
 				</p>
 				<div class="social-icons">
 					<ul>
@@ -271,6 +270,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="#" class="rss"></a></li>
 				</div>
 			</div>
+                <div class="col-md-4 products-bottom-left">
+				<h3>Sobre la empresa <span></span></h3>
+				<p align="justify"> 
+				    La mayoría de los productos que comercializamos, están fabricados bajo normas internacionales y pueden ser    
+                    provistos con sus respectivos Certificados de Calibración referidos a patrones Nacionales ó Internacionales.
+				</p>
+				</div>
 			<div class="col-md-5">
 			</div>
 			<div class="col-md-4 map">
@@ -282,16 +288,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //products-bottom -->
 	<!-- sign-up -->
-	<div class="sign-up">
-		<!-- container -->
-		<div class="container">
-			<div class="sign-up-left">
-				<p><span>Sign up</span> for exclusive sales and product news</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- //container -->
-	</div>
+	
 	<!-- //sign-up -->
 	<?php include("php/parts/footer.php"); ?>
 </body>

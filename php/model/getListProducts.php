@@ -42,7 +42,7 @@
 
 							 		echo "<div class=\"col-md-3 fashion-grid\">";
 							 		
-							 		echo "<a href=\"single.html\"> <img src=\"php/model/getImage.php?id=".$fila["id"]."\"  />";   
+							 		echo "<a> <img src=\"php/model/getImage.php?id=".$fila["id"]."\"  />";   
 
 								    echo "<div class=\"product\">";
 
@@ -54,7 +54,7 @@
 									
 									echo "<div class=\"clearfix\"></div>";
 
-									echo "<h4><a href=\"single.html\">Detalle</a></h4> </div>	</div>";
+									echo "<h4><a href=\"single.php?id=".$fila["id"]."&desc=".$fila["descripcion"]."\">Detalle</a></h4> </div>	</div>";
 
   									}
   

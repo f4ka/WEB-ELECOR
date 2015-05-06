@@ -10,7 +10,7 @@
 					</div>
 					<div class="header-right">
 						<ul>
-							<li class="phone">+371 282 20 760</li>
+							<li class="phone">+54 0381-4330467</li>
 							<li class="mail"><a href="mailto:example@mail.com">elecor@arnet.com.ar</a></li>
 					    </ul>
 					</div>
@@ -28,19 +28,18 @@
 								<li><a  href="productos.php?categoria=marcas&subcategoria=Fluke">Por marca</a></li>
 							</ul>-->
 						</li>     
-						<li class="dropdown1"><a href="">Servicios</a>
-						</li>              
+						<!--<li class="dropdown1"><a href="">Servicios</a>
+						</li> -->             
 						<li class="dropdown1"><a href="nuestrosClientes.php">Nuestros Clientes</a>
 						</li>  
 						<li class="dropdown1"><a href="contact.php">Contacto</a>
-						</li>  					           
-						<li><a href="">Acerca de la empresa</a></li>            
+						</li>
+                        <li class="dropdown1"><a href="acercade.php">Acerca de la empresa</a>
+						</li>
+                        <li class="dropdown1"><a href="archivospdf.php">Archivos</a>
+						</li>
+                        
 					</ul>
-				</div>
-				<div class="search">
-					<form>
-						<input type="text" value="Buscar..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar...';}" required="">
-					</form>
 				</div>
 				<div class="clearfix"> </div>
 				<!-- script-for-menu -->
