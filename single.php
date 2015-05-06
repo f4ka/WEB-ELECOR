@@ -58,26 +58,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="col-md-9 fashions">
 				<div class="title">
-					<h3>Acerca de la empresa</h3>
+					<h3>Detalle de producto</h3>
 				</div>
 				<div class="fashion-section">
 					<div class="fashion-grid1">	
                         
-                        <table border="0" style="width='100%' ">
-                            <tr>
-                                <td>
-                                 
-                                <p align="justify"> Surge  de “Electrónica Corrientes”, nace en el mes Julio  1991, con el solo propósito de ofrecer a las industrias del Noa, un servicio reparación de instrumentos de medición eléctrica y electrónica, a partir de 1995 inicia la comercialización de instrumentos de medición en general, en 1996 se crea el área de venta de servicios de mediciones eléctricas especiales, de la que  podemos decir con orgullo que esta última área incorporada, nos transformó en un referente importante en esta actividad, cuyo principal servicio es la medición de resistencia de puesta  a tierra, y la medición de la tensión de paso y contacto, en la comercialización de todo lo que es: instrumentos de medición y control.
-Con un comienzo con muchos inconvenientes, pero apostando al trabajo, esfuerzo y honestidad, logramos una inserción y reconocimiento, en los  mercados indicados, tal como lo demuestra el listado de nuestros  principales clientes.
-Es así como día a día, se fueron  incrementando nuestras firmas Proveedoras y/o Representadas, avalando nuestro trabajo y brindándonos todo su apoyo y de este modo poder ser una solución para cualquier tipo de necesidad que requieran las industrias.
-Cabe destacar que la mayoría de los productos que comercializamos, están fabricados bajo normas internacionales y pueden ser provistos con sus respectivos Certificados de Calibración referidos a patrones Nacionales ó Internacionales.
-Con lo expresado, hemos querido hacer una pequeña historia de nuestra Empresa. Sabemos que no se pueden expresar muchos años de trabajo y sacrificio, en pocas palabras, pero sí es posible manifestar nuestros deseos de progreso y poder ser cada día más útil, a todos nuestros clientes, estando junto a ellos cuando las necesidades así lo requieren.
-                              </p>
-                                </td>
-                                
-                            </tr>
                         
-                        </table>
+                        
+                        
+                        					<?php
+
+
+  include("php/model/connectionDB.php");
+
+  
+  echo "<table border=\"0\" width=\"54%\" >";  
+  echo "<tr>";
+  echo "<td></td>";
+  echo "<td></td>";
+  echo "<td></td>";
+  echo "</tr>";  
+ 
+    echo "<tr>";
+   // echo "<td>$fila[id]</td>";
+ 
+    echo "<td><img src=\"php\model\getImage.php?id=".$_REQUEST["id"]."\"></td>";
+   	echo "<td align=\"justify\" >".$_REQUEST["desc"]."</td>";
+    echo "</tr>";
+
+  echo "</table>"  ;
+  mysql_close($conexion);
+?>
+                        
+                        
+                        
                         
 					 <div class="clearfix"></div>
 					

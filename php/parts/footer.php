@@ -1,4 +1,13 @@
-
+	<div class="sign-up">
+		<!-- container -->
+		<div class="container">
+			<div class="sign-up-left">
+				<p><span></span></p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- //container -->
+	</div>
 	<!-- footer -->
 	<div class="footer">
 		<!-- container -->
@@ -13,9 +22,10 @@
                         <li>Cel: 0381-156420351</li>
 
 						<span>
-						<li class="drive">100 Fairview Drive </li>
-						<li>Franklin, VA 23851</li> 
-						<li>(757) 569-6100 </li>
+						<li class="drive"> Mails </li>
+						<li>elecor@arnet.com.ar</li> 
+						<li>instrumentos@elecor.com.ar</li>
+                        <li>mgatica@elecor.com.ar</li>
 						</span>
 					</ul>
 				</div>
@@ -29,47 +39,40 @@
 				</div>
 			</div>
 			<div class="col-md-3 blog">
-				<h3>Blog posts</h3>
-				<a href="#">Justin Bieber confirmed that he is gay.</a>
-				<p>Lorem ipsum dolor sit amet, consectetur
-					adipiscing elit. Donec sed auctor elit.
-				</p>
-				<a href="#">New sexy sport clothes are here!</a>
-				<p>Lorem ipsum dolor sit amet, consectetur
-					adipiscing elit. Donec sed auctor elit.
-				</p>
-				<a href="#">Summer sales are coming!</a>
-				<p>Lorem ipsum dolor sit amet, consectetur
-					adipiscing elit. Donec sed auctor elit.
+				<h3>Sobre la empresa</h3>
+				<p align="justify">
+                    Surge  de “Electrónica Corrientes”, nace en el mes Julio  1991,
+                    con el solo propósito de ofrecer a las industrias del Noa, un servicio 
+                    reparación de instrumentos de medición eléctrica y electrónica...
 				</p>
 			</div>
 			<div class="col-md-3 support">
-				<h3>Support</h3>
+				<h3>Productos</h3>
 				<div class="support-grids">
 					<div class="support-left">
 						<ul>
-							<li><a href="#">Terms & Conditions</a></li>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">Payment</a></li>
-							<li><a href="#">Refunds</a></li>
-							<li><a href="#">Track Order</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Privacy & Security</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Corporate Information</a></li>
+							<li><a href="www.fluke.com">Fluke</a></li>
+							<li><a href="www.amprobe.com">Amprobe</a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
 						</ul>
 					</div>
 					<div class="support-left support-right">
 						<ul>
-							<li><a href="#">Sizing</a></li>
-							<li><a href="#">Ordering</a></li>
-							<li><a href="#">Shipping</a></li>
-							<li><a href="#">Return Policy</a></li>
-							<li><a href="#">Affiliates</a></li>
-							<li><a href="#">Find A Store </a></li>
-							<li><a href="#">Site Map</a></li>
-							<li><a href="#">Sign Up & Save</a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
 						</ul>
 					</div>
 					<div class="clearfix"> </div>
