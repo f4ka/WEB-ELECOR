@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include("php/parts/title.php"); ?>
+<?php include "php/parts/title.php";?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Biruang Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Biruang Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstarp-css -->
@@ -28,18 +28,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <script type="text/javascript">
 			    $(document).ready(function () {
 			        $('#horizontalTab').easyResponsiveTabs({
-			            type: 'default', //Types: default, vertical, accordion           
+			            type: 'default', //Types: default, vertical, accordion
 			            width: 'auto', //auto or any width like 600px
 			            fit: true   // 100% fit in a container
 			        });
 			    });
-			   </script>	
+			   </script>
 <!-- start-smoth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -47,11 +47,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 </head>
 <body>
-		
-<?php include("php/parts/header.php"); ?>
-			<!-- // container -->
- 
 
+<?php include "php/parts/header.php";?>
 <!-- //header -->
 	<div class="men">
 		<!-- container -->
@@ -60,47 +57,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="title">
 					<h3>Detalle de producto</h3>
 				</div>
-				<div class="fashion-section">
-					<div class="fashion-grid1">	
-                        
-                        
-                        
-                        
-                        					<?php
-
-
-  include("php/model/connectionDB.php");
-
-  
-  echo "<table border=\"0\" width=\"54%\" >";  
-  echo "<tr>";
-  echo "<td></td>";
-  echo "<td></td>";
-  echo "<td></td>";
-  echo "</tr>";  
- 
-    echo "<tr>";
-   // echo "<td>$fila[id]</td>";
- 
-    echo "<td><img src=\"php\model\getImage.php?id=".$_REQUEST["id"]."\"></td>";
-   	echo "<td align=\"justify\" >".$_REQUEST["desc"]."</td>";
-    echo "</tr>";
-
-  echo "</table>"  ;
-  mysql_close($conexion);
+<?php
+include "php/model/connectionDB.php";
+echo "<table border=\"0\" width=\"84%\" >";
+echo "<td><img src=\"php/model/getImage.php?id=" . $_REQUEST["id"] . "\"></td>";
+echo "<td align=\"left\" ><ul type=\"none\"><li>" . $_REQUEST["nomb"] . "</li>";
+echo "<li>" . $_REQUEST["desc"] . "</li></td></ul>";
+echo "</tr>";
+echo "</table>";
+mysql_close($conexion);
 ?>
-                        
-                        
-                        
-                        
-					 <div class="clearfix"></div>
-					
+					<br>
+					<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-
-<?php include("php/parts/footer.php"); ?>
+	</div>
+<?php include "php/parts/footer.php";?>
 </body>
 </html>
