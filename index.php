@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php include("php/parts/title.php"); ?>
+<?php include "php/parts/title.php";?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Biruang Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Biruang Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstarp-css -->
@@ -29,18 +29,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <script type="text/javascript">
 			    $(document).ready(function () {
 			        $('#horizontalTab').easyResponsiveTabs({
-			            type: 'default', //Types: default, vertical, accordion           
+			            type: 'default', //Types: default, vertical, accordion
 			            width: 'auto', //auto or any width like 600px
 			            fit: true   // 100% fit in a container
 			        });
 			    });
-			   </script>	
+			   </script>
 <!-- start-smoth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -48,10 +48,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 </head>
 <body>
-		
-<?php include("php/parts/header.php"); ?>
+
+<?php include "php/parts/header.php";?>
 			<!-- // container -->
- 
+
 
 <div class="banner">
 			<!-- banner Slider starts Here -->
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							  $('.events').append("<li>after event fired.</li>");
 							}
 						  });
-					
+
 						});
 					  </script>
 					<!--//End-slider-script -->
@@ -109,26 +109,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="banner-bottom-grids">
-				<div class="col-md-4 bottom-grid">
+				<div class="col-md-4 bottom-grid"><br><br>
 					<img src="images/3.jpg" alt="" />
 					<div class="bottom-grid-info">
-                        <a href="#">Cámara infrarroja Fluke TiX560</a>
+                        <a>Cámara infrarroja Fluke TiX560</a>
                         <p>Su visión con respecto a la tecnología infrarroja está a punto de cambiar en 180°. La respuesta correcta se encuentra ante sus ojos, aun cuando su objetivo no.
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 bottom-grid">
+				<div class="col-md-4 bottom-grid"><br><br>
 					<img src="images/7.jpg" alt="" />
 					<div class="bottom-grid-info">
-                        <a href="#">Termómetros visuales de IR VT04 y VT02 de Fluke</a>
+                        <a>Termómetros visuales de IR VT04 y VT02 de Fluke</a>
                         <p>Deje de buscar y comience a solucionar más rápido. Los termómetros visuales de IR de Fluke fueron diseñados con un mapa de calor e imagen digital, además de marcadores de puntos fríos y calientes para una detección de temperatura clara y rápida
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 bottom-grid">
+				<div class="col-md-4 bottom-grid"><br><br>
 					<img src="images/5.jpg" alt="" />
 					<div class="bottom-grid-info">
-                        <a href="#">Herramienta de prueba Fluke 190 serie II ScopeMeter</a>
+                        <a>Herramienta de prueba Fluke 190 serie II ScopeMeter</a>
                         <p>El Fluke 190 serie II combina la potencia de un osciloscopio de alto rendimiento, un multímetro y un registrador digital en una herramienta de prueba fácil de usar en la que podrá confiar.
 						</p>
 					</div>
@@ -148,35 +148,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="products-grids">
 				<div class="col-md-3 product-left-grid">
 					<div class="product-grid">
-						<div class="sap_tabs">	
+						<div class="sap_tabs">
 							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 								<div class="resp-tabs-container">
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
-											<img src="images/t1.jpg" class="img-responsive" alt=""/> 
+											<img src="images/t1.jpg" class="img-responsive" alt=""/>
 										</div>
-									</div>	
+									</div>
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 										<div class="facts">
-											<img src="images/t2.jpg" class="img-responsive" alt=""/>   
+											<img src="images/t2.jpg" class="img-responsive" alt=""/>
 										</div>
-									</div>	
+									</div>
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
 										<div class="facts">
-											<img src="images/t3.jpg" class="img-responsive" alt=""/> 
+											<img src="images/t3.jpg" class="img-responsive" alt=""/>
 										</div>
-									</div>	         	  
+									</div>
 								</div>
 								<ul class="resp-tabs-list">
 									<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span><img src="images/t1.jpg" class="img-responsive" alt=""/></span></li>
 									<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span><img src="images/t2.jpg" class="img-responsive" alt=""/></span></li>
 									<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span><img src="images/t3.jpg" class="img-responsive" alt=""/></span></li>
 									<div class="clearfix"> </div>
-								</ul>	
+								</ul>
 							</div>
 						</div>
 						<div class="products-grid-info">
-                            
+
 							<h4>Fluke</h4>
                             <p>* Todo acerca de lo que deberia saber *
 							</p>
@@ -227,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 product-left-grid">	
+				<div class="col-md-3 product-left-grid">
 					<div class="product-grid">
 						<div class="product-grid-text">
 							<a href="single.html"><img src="images/t6.jpg" alt="" /></a>
@@ -272,24 +272,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
                 <div class="col-md-4 products-bottom-left">
 				<h3>Sobre la empresa <span></span></h3>
-				<p align="justify"> 
-				    La mayoría de los productos que comercializamos, están fabricados bajo normas internacionales y pueden ser    
+				<p align="Left">
+				    La mayoría de los productos que comercializamos, están fabricados bajo normas internacionales y pueden ser
                     provistos con sus respectivos Certificados de Calibración referidos a patrones Nacionales ó Internacionales.
 				</p>
 				</div>
-			<div class="col-md-5">
+            <div class="col-md-4 products-bottom-left">
+			<h3>Donde estamos <span></span></h3><br>
 			</div>
-			<div class="col-md-4 map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2176.1155758807386!2d24.1204355!3d56.946821099999994!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1426480456493" frameborder="0" style="border:0"></iframe>
+			<div class="col-md-5 map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.6384944295364!2d-65.217899!3d-26.819637099999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c413a2dc973%3A0x91b2003275b2e26e!2sCorrientes+1509%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1431400261237" width="700" height="300" frameborder="0" style="border:0"></iframe>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 		<!-- //container-->
-	</div>
+	</div><br>
 	<!-- //products-bottom -->
 	<!-- sign-up -->
-	
+
 	<!-- //sign-up -->
-	<?php include("php/parts/footer.php"); ?>
+	<?php include "php/parts/footer.php";?>
 </body>
 </html>
