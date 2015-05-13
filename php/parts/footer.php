@@ -17,13 +17,13 @@
 					<h3>Nuestra Tienda</h3>
 					<ul>
                         <li>Distribuidor Autorizado Fluke-Tektronix</li>
-                        <li>CP 4000 - S.M. de Tucumán</li>
-                        <li>Tel/Fax: 0381-4330467</li>
-                        <li>Cel: 0381-156420351</li>
+                        <li>CP 4000 - San Miguel de Tucumán</li>
+                        <li>Teléfono/Fax: 381-4330467</li>
+                        <li>Celular: 381-156420351</li>
 
 						<span>
-						<li class="drive"> Mails </li>
-						<li>elecor@arnet.com.ar</li> 
+						<li class="drive"> E-Mail: </li>
+						<li>elecor@arnet.com.ar</li>
 						<li>instrumentos@elecor.com.ar</li>
                         <li>mgatica@elecor.com.ar</li>
 						</span>
@@ -42,7 +42,7 @@
 				<h3>Sobre la empresa</h3>
 				<p align="justify">
                     Surge  de “Electrónica Corrientes”, nace en el mes Julio  1991,
-                    con el solo propósito de ofrecer a las industrias del Noa, un servicio 
+                    con el solo propósito de ofrecer a las industrias del Noa, un servicio
                     reparación de instrumentos de medición eléctrica y electrónica...
 				</p>
 			</div>
@@ -51,8 +51,8 @@
 				<div class="support-grids">
 					<div class="support-left">
 						<ul>
-							<li><a href="www.fluke.com">Fluke</a></li>
-							<li><a href="www.amprobe.com">Amprobe</a></li>
+							<li><a href="http://www.fluke.com">Fluke</a></li>
+							<li><a href="http://www.amprobe.com">Amprobe</a></li>
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
@@ -97,4 +97,3 @@
 
 		<!-- //container -->
 	</div>
-	

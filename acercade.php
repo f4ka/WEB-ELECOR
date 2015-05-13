@@ -49,8 +49,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 <?php include "php/parts/header.php";?>
-			<!-- // container -->
-
 
 <!-- //header -->
 	<div class="men">
@@ -74,15 +72,12 @@ Con lo expresado, hemos querido hacer una pequeña historia de nuestra Empresa. 
                                 </td>
                             </tr>
                         </table>
-
 					 <div class="clearfix"></div>
 
 					</div><br>
 				</div>
 			</div>
 		</div>
-
-
 <?php include "php/parts/footer.php";?>
 </body>
 </html>

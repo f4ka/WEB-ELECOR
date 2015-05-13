@@ -49,25 +49,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 <?php include "php/parts/header.php";?>
-			<!-- // container -->
-
-
 <!-- //header -->
 	<div class="men">
 		<!-- container -->
 		<div class="container">
 			<div class="col-md-9 fashions">
 				<div class="title">
-					<h3>Archivos de informacion</h3>
+					<h3>Documentos de algunos de los productos que comercializamos</h3>
 				</div>
 				<div class="fashion-section">
 					<div class="fashion-grid1">
-
-                       <?php
+                    	<?php
 function listarArchivos($path) {
 	// Abrimos la carpeta que nos pasan como parámetro
 	$dir = opendir($path);
-	// Leo todos los ficheros de la carpeta
+	// Lee todos los ficheros de la carpeta
 	while ($elemento = readdir($dir)) {
 		// Tratamos los elementos . y .. que tienen todas las carpetas
 		if ($elemento != "." && $elemento != "..") {
@@ -79,27 +75,21 @@ function listarArchivos($path) {
 			} else {
 				// Muestro el fichero
 				echo "<table><tr>";
-				echo "<td><a href=\"$path/$elemento\" target='_blank'  ><img src=\"images/pdf.png\">" . $elemento . "</a><br /></td>";
-				echo "</tr></table>";
+				echo "<td><a href=\"$path/$elemento\" target='_blank'  ><img src=\"images/pdf.png\" height=\"52\" width=\"52\">" . $elemento . "</a><br /></td>";
+				echo "<br></tr></table>";
 			}
 		}
 	}
 }
 // Llamamos a la función para que nos muestre el contenido de la carpeta gallery
-
 listarArchivos("./pdfs/");
-
 ?>
-
-
-
-
 					 <div class="clearfix"></div>
 
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><br>
 
 
 <?php include "php/parts/footer.php";?>
