@@ -191,7 +191,7 @@ ul.navig li a:after{
 .banner-bg{
 	background:url(../images/6.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height: 716px;
+	min-height: 500px;
 }
 .banner-img{
 	background:url(../images/1.jpg) no-repeat 0px 0px;

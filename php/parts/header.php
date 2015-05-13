@@ -1,4 +1,4 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>		
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <!-- header -->
 	<div class="header">
 			<!-- container -->
@@ -23,22 +23,15 @@
 						<li class="dropdown1"><a href="index.php">Inicio</a>
 						</li>
                         <li class="dropdown1"><a href="productos.php?categoria=&subcategoria=">Productos</a>
-						<!--	<ul class="dropdown2">
-								<li><a href="productos.php?categoria=rubros&subcategoria=Electrico">Por rubro</a></li>
-								<li><a  href="productos.php?categoria=marcas&subcategoria=Fluke">Por marca</a></li>
-							</ul>-->
-						</li>     
-						<!--<li class="dropdown1"><a href="">Servicios</a>
-						</li> -->             
+						</li>
 						<li class="dropdown1"><a href="nuestrosClientes.php">Nuestros Clientes</a>
-						</li>  
+						</li>
 						<li class="dropdown1"><a href="contact.php">Contacto</a>
 						</li>
                         <li class="dropdown1"><a href="acercade.php">Acerca de la empresa</a>
 						</li>
-                        <li class="dropdown1"><a href="archivospdf.php">Archivos</a>
+                        <li class="dropdown1"><a href="archivospdf.php"> Ver Documentación</a>
 						</li>
-                        
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

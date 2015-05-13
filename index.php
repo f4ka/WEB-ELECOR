@@ -190,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 product-left-grid">
 					<div class="product-grid">
 						<div class="product-grid-text">
-							<a href="single.html"><img src="images/t4.jpg" alt="" /></a>
+							<a href="productos.php"><img src="images/t4.jpg" alt="" /></a>
 							<div class="products-grid-info">
 								<h3>Fluke</h3>
                                 <h4>Analizadores de baterías serie 500 de Fluke</h4>
@@ -202,7 +202,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="clearfix"> </div>
 							</div>
 							<div class="plus">
-								<a href="single.html"><img src="images/plus.png" alt="" /></a>
+								<a href="productos.php"><img src="images/plus.png" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -210,7 +210,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 product-left-grid">
 					<div class="product-grid">
 						<div class="product-grid-text">
-							<a href="single.html"><img src="images/t5.jpg" alt="" /></a>
+							<a href="productos.php"><img src="images/t5.jpg" alt="" /></a>
 							<div class="products-grid-info">
                                 <h3>Cámara infrarroja Fluke TiX1000</h3>
                                 <h4>Serie para expertos</h4>
@@ -222,7 +222,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="clearfix"> </div>
 							</div>
 							<div class="plus">
-								<a href="single.html"><img src="images/plus.png" alt="" /></a>
+								<a href="productos.php"><img src="images/plus.png" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -230,7 +230,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 product-left-grid">
 					<div class="product-grid">
 						<div class="product-grid-text">
-							<a href="single.html"><img src="images/t6.jpg" alt="" /></a>
+							<a href="productos.php"><img src="images/t6.jpg" alt="" /></a>
 							<div class="products-grid-info">
                                 <h3>Estroboscopio LED 820-2</h3>
                                 <h4>Robusto, compacto y fácil de usar</h4>
@@ -242,7 +242,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="clearfix"> </div>
 							</div>
 							<div class="plus">
-								<a href="single.html"><img src="images/plus.png" alt="" /></a>
+								<a href="productos.php"><img src="images/plus.png" alt="" /></a>
 							</div>
 						</div>
 					</div>
